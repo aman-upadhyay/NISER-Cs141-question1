@@ -24,5 +24,5 @@ int main ()
     cout<<"your average marks is "<<g<<"\n";
     cout<<"yoyur percentage is "<<h;
         return 0;
-   } 
+    } 
 
