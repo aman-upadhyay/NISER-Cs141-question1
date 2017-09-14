@@ -11,5 +11,5 @@ cin>>n;
        b =(2*x)-1; 
        s=s+b;
        x=x+1;
- } cout<<"Sum of even number till "<<n<<" is "<<s;
+ } cout<<"Sum of odd number till "<<n<<" is "<<s;
 }
