@@ -21,7 +21,7 @@ hra=0.30*bs;
 da=0.95*bs;
 }
 gs=bs+da+hra;
-cout<<"The gross salary=Rs."<<gs<<"/n";
+cout<<"The gross salary=Rs."<<gs<<"\n";
 }
 
 
