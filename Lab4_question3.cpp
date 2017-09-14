@@ -6,6 +6,8 @@ void max(int a,int b)
  cout<<"The maximum of the two numbers is "<<a<<"\n";
  else if(b>a)
  cout<<"The maximum of the two numbers is "<<b<<"\n";
+ else
+  cout<<"Please enter diffrent numbers\n";
 }
 void min(int a,int b)
 {
@@ -13,6 +15,8 @@ void min(int a,int b)
  cout<<"The minimum of the two numbers is "<<a<<"\n";
  else if(b<a)
  cout<<"The minimum of the two numbers is "<<b<<"\n";
+ else
+  cout<<"Please enter diffrent numbers\n";
 }
 int main()
 {
