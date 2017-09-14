@@ -67,7 +67,7 @@ int prime(int n)
 }
 int main()
 { int n;
-  cout<<"Enter a no to check if it is Strong Prime Or armstrong";
+  cout<<"Enter a number to check if it is Strong, Prime Or Armstrong number\n";
  cin>>n;
    armstrong(n);
    prime(n);
