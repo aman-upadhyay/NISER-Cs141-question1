@@ -21,7 +21,7 @@ class ZooAnimal
    }
 
  
-   void ZooAnimal::Create(char *str,int a1, int a2, int a3)
+   void ZooAnimal::Create(char *n,int a1, int a2, int a3)
       {
          name=n;
          cageNumber=a1;
@@ -52,6 +52,6 @@ class ZooAnimal
        char name[50] = "Bozo";
    
     bozo.Create (name, 408, 1027, 400);
-    cout << "This animal's name is " << bozo.reptName << endl;
+    cout << "This animal's name is " << bozo.reptName() << endl;
     bozo.Destroy ();
    }
